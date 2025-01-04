@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igreja Adbras Baronesa - Nossa Comunidade</title>
+
+  <!-- Link para o CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Link para o ícone da página (favicon) -->
+  <link rel="icon" href="https://www.example.com/favicon.ico" type="image/x-icon">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Igreja Adbras Baronesa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#programacao">Programação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testemunhos">Testemunhos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fundo da página -->
+  <header class="hero bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-3">Bem-vindo à Igreja Adbras Baronesa</h1>
+      <p class="lead">Uma comunidade unida pela fé, amor e esperança. Venha fazer parte dessa história!</p>
+      <a href="#programacao" class="btn btn-primary btn-lg">Veja nossa Programação</a>
+    </div>
+  </header>
+
+  <!-- Seção Sobre a Igreja -->
+  <section id="sobre" class="container py-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="text-center">Sobre a Igreja</h2>
+        <p>Fundada com o propósito de pregar o Evangelho e promover o bem-estar social e espiritual de todos, a Igreja Adbras Baronesa tem como missão ser um lugar de acolhimento, crescimento espiritual e transformação de vidas. Estamos aqui para caminhar com você em sua jornada de fé.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="https://www.example.com/imagem-igreja.jpg" class="img-fluid rounded" alt="Imagem da Igreja">
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Programação de Cultos -->
+  <section id="programacao" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Programação de Cultos</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Domingo</h5>
+              <p class="card-text">Culto de Celebração - 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Quarta-feira</h5>
+              <p class="card-text">Culto de Oração - 19:30 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Sábado</h5>
+              <p class="card-text">Escola Bíblica - 16:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Testemunhos -->
+  <section id="testemunhos" class="container py-5">
+    <h2 class="text-center mb-4">Testemunhos</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text"><strong>Maria Silva:</strong> "Eu encontrei paz e força na Palavra de Deus aqui na igreja. Sou muito grata pela comunidade que me acolheu com tanto carinho!"</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text"><strong>João Pereira:</strong> "A Igreja Adbras Baronesa foi fundamental para minha transformação espiritual. O ambiente é acolhedor e a palavra ministrada tem sido uma bênção para minha vida."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center">Informações de Contato</h2>
+      <p class="text-center">Endereço: Rua Exemplo, 123, Bairro Baronesa, Cidade, Estado.</p>
+      <p class="text-center">Email: <a href="mailto:contato@adbrasbaronesa.com.br" class="text-white">contato@adbrasbaronesa.com.br</a></p>
+      <p class="text-center">Telefone: <a href="tel:+551112345678" class="text-white">(11) 1234-5678</a></p>
+    </div>
+  </section>
+
+  <!-- Ícone do Chatbot -->
+  <div class="chat-icon" onclick="toggleChatWindow()">💬</div>
+
+  <!-- Janela do Chat -->
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <span>Chatbot - Adbras Baronesa</span>
+      <button class="chat-close" onclick="toggleChatWindow()">×</button>
+    </div>
+    <div class="chat-content">
+      <!-- Integrando o chatbot de um site externo com um iframe -->
+      <iframe src="https://typebot.co/adbrasbaronesa" width="90%" height="90%" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <!-- Scripts do Bootstrap e JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

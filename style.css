@@ -1,0 +1,84 @@
+/* Estilos para a barra de navegação fixa */
+.navbar {
+    z-index: 1000;
+  }
+  
+  /* Estilo para o cabeçalho principal (Hero) */
+  .hero {
+    background: url('https://www.example.com/igreja-background.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 300px;
+    color: white;
+  }
+  
+  .hero .btn-primary {
+    margin-top: 20px;
+  }
+  
+  /* Estilo para as seções */
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  #sobre img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para o ícone flutuante do chat */
+  .chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  /* Estilo para a janela do chat */
+  .chat-window {
+    position: fixed;
+    bottom: 85px;
+    right: 15px;
+    width: 295px;
+    height: 390px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chat-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+  }
+  
+  .chat-close {
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  .chat-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
